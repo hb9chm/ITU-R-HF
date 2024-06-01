@@ -855,14 +855,14 @@ To return the noise parameters for a single location, Mode 1 above, 7 command li
 
 - Argument 7 allows the program to provide return data from the P.372 calculation is several formats. The table below gibes the integer print flag codes. 
 
-|code|		Print Mode|
-|----|----------------|
-||No argument	Prints detailed output to stdout
-|0		|No output|
-|1		|Prints detailed outpuit to stderr|
-|2		|Prints detailed output to file “MakeNoiseOut.txt”|
-|3		| Prints detailed header, column description, and CSV output to stdout|
-|4		|Prints CSV output to stdout|
+	|code|		Print Mode|
+	|----|----------------|
+	||No argument	Prints detailed output to stdout
+	|0		|No output|
+	|1		|Prints detailed outpuit to stderr|
+	|2		|Prints detailed output to file “MakeNoiseOut.txt”|
+	|3		| Prints detailed header, column description, and CSV output to stdout|
+	|4		|Prints CSV output to stdout|
 
 Example ITURNoise() Output
 
